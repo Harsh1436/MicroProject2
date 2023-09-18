@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    background: #6F6AF7;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    height: 4rem;
+    z-index: 2;
+}
+
+#logo {
+    font-family: 'Delius Unicase', cursive;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+#ribbon-content {
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    list-style: none;
+    color: #FFF;
+    gap: 3rem;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+.search-bar {
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    color: #9F9F9F;
+    background-size: 16px;
+    background-position: right;
+    background-position-x: 90%;
+    height: 2rem;
+    width: 13rem;
+    border: none;
+    border-radius: 30px;
+    margin-right: 0rem;
+}
+
+.humburger {
+    height: 1.8rem;
+}
+
+.section-1 {
+    margin: 10rem auto 4rem auto;
+    max-width: 61rem;
+}
+
+.textarea {
+    margin: 0.6rem;
+}
+
+.desktopimg {
+    width: 16rem;
+    height: 20.2rem;
+    box-shadow: 4px 7px 32px 0px #00000070;
+    border-radius: 10px;
+}
+
+.content {
+    resize: none;
+    border-radius: 10px;
+    color: #6F7373;
+    border: none;
+    height: 19rem;
+    background: linear-gradient(0deg, #E5D8FF, #E5D8FF), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    width: 40rem;
+    padding: 10px;
+    margin-left: 2rem;
+    font-size: 1rem;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2), inset -6px -6px 10px 0 rgba(0, 0, 0, -1.9);
+}
+
+.section-2 {
+    margin: 0rem auto 7rem auto;
+    max-width: 61rem;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: inherit;
+    flex-wrap: wrap;
+}
+
+.stats {
+    font-family: DM Sans;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+    height: 6rem;
+    width: 13rem;
+    line-height: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 6px 9px 0px rgba(0, 0, 0, 0.3);
+}
+
+.stat {
+    margin: 1rem auto auto 1rem;
+}
+
+.stats-1 {
+    background-color: #929DFF;
+}
+
+.stats-2 {
+    background-color: #734CF2;
+}
+
+.stats-3 {
+    background-color: #D288FF;
+}
+
+.stats-4 {
+    background-color: #000;
+}
+
+.section-3 {
+    margin: 7rem auto 5rem auto;
+    max-width: 61rem;
+    background-color: #483EFF;
+    display: flex;
+    height: 28rem;
+    border-radius: 10px;
+    font-size: 1.9rem;
+    align-items: center;
+}
+
+.info-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 25rem;
+    width: 22rem;
+}
+
+.btn {
+    width: 16rem;
+    height: 5rem;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #000;
+}
+
+.btn-info {
+    background-color: #BCE0F6;
+    box-shadow: 0px 6px 35px 0px rgba(0, 0, 0, 0.39);
+}
+
+.btn-btn {
+    border: 0.2rem solid #FFF;
+    background-color: #483EFF;
+    color: #FFF;
+}
+
+.info-area {
+    background-color: #FFF;
+    height: 25rem;
+    width: 38rem;
+    border-radius: 10px;
+    padding: 3rem auto auto 3rem;
+    position: relative;
+}
+
+.inf {
+    margin: 3rem auto auto 2rem;
+}
+
+.inf h1 {
+    font-family: 'Inter', sans-serif;
+    color: #04285A;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.inf ul {
+    margin: 2rem auto auto 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.info-area ul li {
+    list-style: none;
+}
+
+.inf li {
+    margin-top: 1rem;
+    color: #143565;
+}
+
+.next {
+    background-color: #000;
+    color: #ffffff;
+    height: 2.2rem;
+    width: 5.7rem;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.next i {
+    margin-left: 10px;
+}
+
+.help {
+    height: 5rem;
+    width: 5rem;
+    /* align-items: center;
+    align-content: center;*/
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 2rem;
+    right: 6rem;
+    border-radius: 50%;
+    box-shadow: 0px 6px 35px 0px rgba(49, 44, 44, 0.39);
+}
+
+.help img {
+    margin: 0.5rem;
+    height: 4rem;
+}
+
+.social {
+    /*padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;*/
+    float: right;
+    position: sticky;
+    top: 5rem;
+    right: 0;
+}
+
+.social img {
+    height: 10rem;
+}
